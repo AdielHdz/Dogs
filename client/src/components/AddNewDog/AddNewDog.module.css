@@ -1,0 +1,72 @@
+.form {
+    background-image: url("./peri-stojnic-5Vr_RVPfbMI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding: .1px;
+}
+
+.container {
+    background-color: rgba(153, 205, 50, 0.346);
+    width: 30%;
+    margin: 40px auto;
+    padding: 40px;
+    box-shadow: 0 0 10px 2px rgb(214, 214, 214);
+    border-radius: 15px;
+    
+}
+
+.container__inputs {
+ 
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 10px;
+    height: 400px;
+
+}
+
+.inputs {
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.labels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 5px 2px rgb(149, 149, 149);
+     /* inset 0 -1px 10px 1px rgb(159, 159, 159); */
+    
+    outline: none;
+    text-align: center;
+}
+
+
+
+.btn__createNewDog {
+    width: 100%;
+    cursor: pointer;
+}
+
+.container__wh__inputs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guion {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+
+.containerFilter {
+    width: 40%;
+    height: 30px;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+    margin-left: 15px;
+}
+
+
+.selectOrder {
+    width: 100%;
+    background-color: gray;
+    border: none;
+    padding: 0 15px;
+    color: aqua;
+    border-radius: 10px;
+    
+}
+
+.options {
+
+}
+
+
+.label {
+    font-size: .9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: aliceblue;
+}

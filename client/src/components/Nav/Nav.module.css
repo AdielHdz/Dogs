@@ -1,0 +1,41 @@
+.nav {
+    background-color: rgb(0, 61, 46);
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration-line: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    width: 150px;
+
+} 
+
+.link:hover {
+  
+    background-color: rgba(128, 128, 128, 0.553);
+    border-radius: 8px;
+
+}
+
+.title {
+    font-size: 1.8rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    user-select: none;
+    letter-spacing: 3px;
+    font-family: 'Exo', sans-serif;
+    /* font-family: 'Bree Serif', serif;  */
+    font-size: 2.5rem;
+    
+}
+
+
+

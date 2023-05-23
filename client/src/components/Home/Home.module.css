@@ -1,0 +1,10 @@
+.article {
+    background-image: url("./karsten-winegeart-Z-rSM6yKgxo-unsplash.jpg");
+    padding: 0 0 35px 0;
+}
+
+.container__filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px ;
+}

@@ -1,0 +1,34 @@
+.body {
+    height: 100vh;
+}
+
+
+.div {
+    padding: .1px;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/pexels-chevanon-photography-1108099.jpg);
+    background-size: cover;
+}
+.link {
+    margin: 0 auto; 
+    width: 150px;
+    padding: 20px 30px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: rgba(198, 198, 211, 0.527);
+    transition: .4s;
+    text-decoration-line: none;
+    font-family: Arial;
+    font-weight: 600;
+    color: rgb(0, 119, 128);
+
+    
+}
+
+.link:hover {
+    background-color: rgba(74, 146, 255, 0.993);
+    color: white;
+}
